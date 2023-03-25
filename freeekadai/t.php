@@ -66,10 +66,10 @@
     <?php
 
     // MySQLデータベースに接続する
-    $host = "mysql17.onamae.ne.jp";
-    $username = "m0i1t_kosuke124";
-    $password = "analonany2020!";
-    $dbname = "m0i1t_kintaikanri_db";
+    $host = "host";
+    $username = "user";
+    $password = "password";
+    $dbname = "dbname";
     
     $conn = mysqli_connect($host, $username, $password, $dbname);
     
@@ -103,7 +103,7 @@
     <p id="distance"></p>
     <button onclick="startWork()" id="syukin" type="submit" disabled=true>出勤</button>
     <button onclick="endWork()" id="taikin" type="submit" disabled=true>退勤</button>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcNuTH8Of78SO2HxSpYyQAyPTBX9f-d6U&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=yourkey"
     async defer></script>
     <script src="new.js"></script>
   </body>
