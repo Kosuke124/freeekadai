@@ -1,9 +1,9 @@
 <?php
 // MySQLに接続するための情報を設定する
-$servername = "mysql17.onamae.ne.jp";
-$username = "m0i1t_kosuke124";
-$password = "analonany2020!";
-$dbname = "m0i1t_kintaikanri_db";
+$servername = "host";
+$username = "username";
+$password = "password";
+$dbname = "dbname";
 
 
 // MySQLに接続する
